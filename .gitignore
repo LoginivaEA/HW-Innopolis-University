@@ -1,0 +1,67 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Кеши
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Архивы и бинарники
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Данные, которые не должны попадать в репозиторий
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+
+# Кэш pip
+pip-wheel-metadata/
+pip-log.txt
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+*.egg
